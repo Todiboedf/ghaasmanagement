@@ -9,7 +9,7 @@ export default function ContactPage() {
             Travaillons <span className="gold-gradient">ensemble</span>
           </h1>
           <p className="text-gray-500 max-w-lg">
-            Vous êtes un athlète, une marque ou une organisation sportive ? Discutons de la façon dont GH Management peut vous accompagner.
+            Vous êtes un athlète, une marque ou une organisation sportive ? Discutons de la façon dont GHaas Management peut vous accompagner.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export default function ContactPage() {
           {/* Info */}
           <div className="space-y-6">
             <div className="card-dark rounded-sm p-6">
-              <h3 className="text-white font-semibold mb-4">GH Management</h3>
+              <h3 className="text-white font-semibold mb-4">GHaas Management</h3>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <span className="text-[#C9A84C] mt-1">✉️</span>

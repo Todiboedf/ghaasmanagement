@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center">
           <Image
             src="/images/logo-ghaas.jpg"
-            alt="GHaasManagement"
+            alt="GHaas Management"
             width={220}
             height={60}
             className="h-12 w-auto object-contain"

@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <Image src="/images/logo-ghaas.jpg" alt="GHaasManagement" width={200} height={54} className="h-10 w-auto object-contain" />
+              <Image src="/images/logo-ghaas.jpg" alt="GHaas Management" width={200} height={54} className="h-10 w-auto object-contain" />
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
               Agence suisse de management sportif dédiée à propulser les athlètes talentueux vers de nouveaux sommets.
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-[#C9A84C]/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-600 text-xs">© 2025 GHaasManagement. Tous droits réservés.</p>
+          <p className="text-gray-600 text-xs">© 2025 GHaas Management. Tous droits réservés.</p>
           <p className="text-gray-700 text-xs">Management Sportif & Sponsoring — Suisse</p>
         </div>
       </div>

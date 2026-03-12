@@ -12,7 +12,7 @@ export default function AthletesPage() {
             Nos <span className="gold-gradient">Athlètes</span>
           </h1>
           <p className="text-gray-500 max-w-lg">
-            GH Management représente des athlètes suisses d&apos;exception, accompagnés avec passion et expertise vers les plus hauts niveaux.
+            GHaas Management représente des athlètes suisses d&apos;exception, accompagnés avec passion et expertise vers les plus hauts niveaux.
           </p>
         </div>
 

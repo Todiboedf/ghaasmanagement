@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "GH Management | Management Sportif & Sponsoring",
-  description: "GH Management est une agence suisse dédiée à la gestion de carrière d'athlètes talentueux et à l'organisation d'événements sportifs d'exception.",
+  title: "GHaas Management | Management Sportif & Sponsoring",
+  description: "GHaas Management est une agence suisse dédiée à la gestion de carrière d'athlètes talentueux et à l'organisation d'événements sportifs d'exception.",
   keywords: "management sportif, sponsoring, athlètes suisses, tennis, golf, Suisse",
 };
 

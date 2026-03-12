@@ -197,9 +197,14 @@ export default function LenartKadriuPage() {
           <p className="text-gray-600 text-sm mb-6">
             Guillaume Haas · <a href="mailto:Ghaasmanagement@gmail.com" className="text-[#C9A84C] hover:text-[#E8C97A]">Ghaasmanagement@gmail.com</a> · <a href="tel:+41795667410" className="text-[#C9A84C] hover:text-[#E8C97A]">+41 79 566 74 10</a>
           </p>
-          <Link href="/contact" className="btn-gold inline-block">
-            Nous contacter
-          </Link>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Link href="/contact" className="btn-gold inline-block">
+              Nous contacter
+            </Link>
+            <a href="https://www.lenartkadriu.com" target="_blank" rel="noopener noreferrer" className="btn-outline">
+              Site officiel de Lenart
+            </a>
+          </div>
         </div>
       </div>
     </div>

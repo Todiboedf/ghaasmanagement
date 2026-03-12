@@ -11,7 +11,7 @@ export default function EvenementsPage() {
             Nos <span className="gold-gradient">Événements</span>
           </h1>
           <p className="text-gray-500 max-w-lg">
-            GH Management organise des événements sportifs d&apos;exception, alliant compétition de haut niveau et engagement social.
+            GHaas Management organise des événements sportifs d&apos;exception, alliant compétition de haut niveau et engagement social.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function EvenementsPage() {
               <div>
                 <p className="text-gray-500 text-xs uppercase tracking-wider mb-2">À propos</p>
                 <p className="text-gray-400 leading-relaxed">
-                  L&apos;Easy Master Cup est l&apos;événement golf signature de GH Management, organisé en partenariat avec Easy Gérance SA. Une compétition caritative qui réunit des passionnés de golf pour une journée alliant sport d&apos;excellence et engagement solidaire.
+                  L&apos;Easy Master Cup est l&apos;événement golf signature de GHaas Management, organisé en partenariat avec Easy Gérance SA. Une compétition caritative qui réunit des passionnés de golf pour une journée alliant sport d&apos;excellence et engagement solidaire.
                 </p>
               </div>
               <div className="space-y-3">
@@ -74,9 +74,9 @@ export default function EvenementsPage() {
               <Link href="/contact" className="btn-gold">
                 Participer / Sponsoriser
               </Link>
-              <Link href="/contact" className="btn-outline">
-                Plus d&apos;informations
-              </Link>
+              <a href="https://www.easymastercup.ch" target="_blank" rel="noopener noreferrer" className="btn-outline">
+                Site officiel
+              </a>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function EvenementsPage() {
           <p className="text-gray-600 text-sm uppercase tracking-wider mb-2">Prochainement</p>
           <h3 className="text-white text-xl font-bold mb-2">Nouveaux événements en préparation</h3>
           <p className="text-gray-500 text-sm">
-            GH Management développe de nouveaux formats d&apos;événements sportifs. Restez connectés.
+            GHaas Management développe de nouveaux formats d&apos;événements sportifs. Restez connectés.
           </p>
         </div>
       </div>

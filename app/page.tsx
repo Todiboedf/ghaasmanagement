@@ -21,7 +21,7 @@ export default function Home() {
               <span className="gold-gradient">l&apos;excellence</span>
             </h1>
             <p className="text-gray-400 text-xl leading-relaxed mb-10 max-w-xl">
-              GH Management propulse des athlètes suisses d&apos;exception vers de nouveaux sommets. Nous sommes les architectes de carrières, les facilitateurs de rêves.
+              GHaas Management propulse des athlètes suisses d&apos;exception vers de nouveaux sommets. Nous sommes les architectes de carrières, les facilitateurs de rêves.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/athletes" className="btn-gold">
@@ -68,7 +68,7 @@ export default function Home() {
               Notre <span className="gold-gradient">Mission</span>
             </h2>
             <p className="text-gray-400 leading-relaxed mb-6">
-              GH Management n&apos;est pas simplement une agence — c&apos;est une communauté où les rêves des athlètes prennent vie, où le talent rencontre l&apos;opportunité, et où chaque victoire devient une célébration collective.
+              GHaas Management n&apos;est pas simplement une agence — c&apos;est une communauté où les rêves des athlètes prennent vie, où le talent rencontre l&apos;opportunité, et où chaque victoire devient une célébration collective.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
               Nous comprenons que la réussite d&apos;un athlète ne se mesure pas seulement sur le terrain. C&apos;est pourquoi nous créons des partenariats solides avec des sponsors qui partagent notre vision d&apos;intégrité et de dépassement de soi.
@@ -171,7 +171,7 @@ export default function Home() {
               Easy <span className="gold-gradient">Master Cup</span>
             </h2>
             <p className="text-gray-400 leading-relaxed mb-6">
-              L&apos;événement golf signature de GH Management, organisé en partenariat avec Easy Gérance SA. Une compétition caritative alliant sport d&apos;excellence et engagement social.
+              L&apos;événement golf signature de GHaas Management, organisé en partenariat avec Easy Gérance SA. Une compétition caritative alliant sport d&apos;excellence et engagement social.
             </p>
             <Link href="/evenements" className="btn-gold inline-block">
               Découvrir l&apos;événement
@@ -194,7 +194,7 @@ export default function Home() {
             <span className="gold-gradient">success story</span> ?
           </h2>
           <p className="text-gray-400 mb-10">
-            Vous êtes un athlète, une marque ou une organisation sportive ? Discutons de la façon dont GH Management peut vous accompagner.
+            Vous êtes un athlète, une marque ou une organisation sportive ? Discutons de la façon dont GHaas Management peut vous accompagner.
           </p>
           <Link href="/contact" className="btn-gold inline-block text-base">
             Prendre contact
