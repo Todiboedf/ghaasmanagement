@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,11 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-[#C9A84C] to-[#E8C97A] flex items-center justify-center">
-                <span className="text-black font-black text-sm">GH</span>
-              </div>
-              <span className="text-white font-bold text-lg">GH <span className="text-[#C9A84C]">Management</span></span>
+            <div className="mb-4">
+              <Image src="/images/logo-ghaas.jpg" alt="GHaasManagement" width={200} height={54} className="h-10 w-auto object-contain" />
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
               Agence suisse de management sportif dédiée à propulser les athlètes talentueux vers de nouveaux sommets.
@@ -33,14 +31,15 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Contact</h4>
             <div className="flex flex-col gap-2 text-sm text-gray-500">
-              <p>Suisse</p>
+              <a href="mailto:Ghaasmanagement@gmail.com" className="hover:text-[#C9A84C] transition-colors">Ghaasmanagement@gmail.com</a>
+              <a href="tel:+41795667410" className="hover:text-[#C9A84C] transition-colors">+41 79 566 74 10</a>
               <a href="https://www.ghaasmanagement.ch" className="hover:text-[#C9A84C] transition-colors">ghaasmanagement.ch</a>
             </div>
           </div>
         </div>
 
         <div className="mt-10 pt-6 border-t border-[#C9A84C]/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-600 text-xs">© 2025 GH Management. Tous droits réservés.</p>
+          <p className="text-gray-600 text-xs">© 2025 GHaasManagement. Tous droits réservés.</p>
           <p className="text-gray-700 text-xs">Management Sportif & Sponsoring — Suisse</p>
         </div>
       </div>

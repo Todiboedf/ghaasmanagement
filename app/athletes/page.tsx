@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AthletesPage() {
   return (
@@ -19,8 +20,8 @@ export default function AthletesPage() {
         <div className="grid md:grid-cols-2 gap-8">
           {/* Lenart Kadriu */}
           <div className="card-dark rounded-sm overflow-hidden group">
-            <div className="h-64 bg-gradient-to-br from-[#1A1A1A] via-[#111] to-[#0A0A0A] flex items-center justify-center relative overflow-hidden">
-              <div className="text-8xl">🎾</div>
+            <div className="h-64 relative overflow-hidden">
+              <Image src="/images/lenart-4.jpg" alt="Lenart Kadriu" fill className="object-cover object-top group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent" />
             </div>
             <div className="p-8">

@@ -1,21 +1,24 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0A]/95 backdrop-blur-sm border-b border-[#C9A84C]/20">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
-          <div className="w-8 h-8 bg-gradient-to-br from-[#C9A84C] to-[#E8C97A] flex items-center justify-center">
-            <span className="text-black font-black text-sm">GH</span>
-          </div>
-          <span className="text-white font-bold text-lg tracking-tight">
-            GH <span className="text-[#C9A84C]">Management</span>
-          </span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo-ghaas.jpg"
+            alt="GHaasManagement"
+            width={220}
+            height={60}
+            className="h-12 w-auto object-contain"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}

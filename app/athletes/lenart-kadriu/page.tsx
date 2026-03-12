@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function LenartKadriuPage() {
   const results = [
@@ -19,13 +20,16 @@ export default function LenartKadriuPage() {
 
         {/* Header */}
         <div className="grid md:grid-cols-3 gap-10 mb-16">
-          {/* Photo placeholder */}
+          {/* Photo */}
           <div className="md:col-span-1">
-            <div className="aspect-[3/4] bg-gradient-to-br from-[#1A1A1A] to-[#0A0A0A] border border-[#C9A84C]/20 rounded-sm flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-3">🎾</div>
-                <span className="text-[#C9A84C]/40 text-xs uppercase tracking-widest">Photo à venir</span>
-              </div>
+            <div className="aspect-[3/4] relative rounded-sm overflow-hidden border border-[#C9A84C]/20">
+              <Image
+                src="/images/lenart-7.jpg"
+                alt="Lenart Kadriu - Tennis"
+                fill
+                className="object-cover object-top"
+                priority
+              />
             </div>
             {/* Sponsors */}
             <div className="mt-4 card-dark rounded-sm p-4">
@@ -97,6 +101,28 @@ export default function LenartKadriuPage() {
               <div key={item.title} className="card-dark rounded-sm p-6">
                 <p className="text-[#C9A84C] text-xs uppercase tracking-wider mb-3">{item.title}</p>
                 <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Photo gallery */}
+        <div className="mb-16">
+          <div className="gold-line" />
+          <h2 className="text-2xl font-bold text-white mb-6">Galerie</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {[
+              { src: "/images/lenart-3.jpg", alt: "Lenart Kadriu - Trophée" },
+              { src: "/images/lenart-4.jpg", alt: "Lenart Kadriu - Tennis Europe" },
+              { src: "/images/lenart-5.jpg", alt: "Lenart Kadriu - Istarska Riviera" },
+              { src: "/images/lenart-6.jpg", alt: "Lenart Kadriu - Vaud" },
+              { src: "/images/lenart-8.jpg", alt: "Lenart Kadriu - RealSport" },
+              { src: "/images/lenart-9.jpg", alt: "Lenart Kadriu - En jeu" },
+              { src: "/images/lenart-trophy.jpg", alt: "Trophée TC Gland 2025" },
+              { src: "/images/lenart-2.jpg", alt: "Lenart Kadriu - Court" },
+            ].map((photo) => (
+              <div key={photo.src} className="aspect-square relative rounded-sm overflow-hidden border border-[#C9A84C]/10 hover:border-[#C9A84C]/40 transition-all">
+                <Image src={photo.src} alt={photo.alt} fill className="object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
           </div>
