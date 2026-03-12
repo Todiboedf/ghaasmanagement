@@ -64,6 +64,24 @@ export default function ContactPage() {
               <h3 className="text-white font-semibold mb-4">GH Management</h3>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
+                  <span className="text-[#C9A84C] mt-1">✉️</span>
+                  <div>
+                    <p className="text-gray-500 text-xs uppercase tracking-wider mb-1">Email</p>
+                    <a href="mailto:Ghaasmanagement@gmail.com" className="text-white text-sm hover:text-[#C9A84C] transition-colors">
+                      Ghaasmanagement@gmail.com
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-[#C9A84C] mt-1">📞</span>
+                  <div>
+                    <p className="text-gray-500 text-xs uppercase tracking-wider mb-1">Téléphone</p>
+                    <a href="tel:+41795667410" className="text-white text-sm hover:text-[#C9A84C] transition-colors">
+                      +41 79 566 74 10
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
                   <span className="text-[#C9A84C] mt-1">🌐</span>
                   <div>
                     <p className="text-gray-500 text-xs uppercase tracking-wider mb-1">Site web</p>
