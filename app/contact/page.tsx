@@ -67,8 +67,8 @@ export default function ContactPage() {
                   <span className="text-[#C9A84C] mt-1">✉️</span>
                   <div>
                     <p className="text-gray-500 text-xs uppercase tracking-wider mb-1">Email</p>
-                    <a href="mailto:Ghaasmanagement@gmail.com" className="text-white text-sm hover:text-[#C9A84C] transition-colors">
-                      Ghaasmanagement@gmail.com
+                    <a href="mailto:ghaasmanagement@gmail.com" className="text-white text-sm hover:text-[#C9A84C] transition-colors">
+                      ghaasmanagement@gmail.com
                     </a>
                   </div>
                 </div>

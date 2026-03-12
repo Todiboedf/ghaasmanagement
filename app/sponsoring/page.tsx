@@ -230,8 +230,8 @@ export default function SponsoringPage() {
             <Link href="/contact" className="btn-gold inline-block">Nous contacter</Link>
           </div>
           <div className="flex flex-col items-center gap-1 text-sm">
-            <a href="mailto:contact.ghmanagement@gmail.com" className="text-[#C9A84C] hover:text-[#E8C97A] transition-colors">
-              contact.ghmanagement@gmail.com
+            <a href="mailto:ghaasmanagement@gmail.com" className="text-[#C9A84C] hover:text-[#E8C97A] transition-colors">
+              ghaasmanagement@gmail.com
             </a>
             <a href="tel:+41795667410" className="text-gray-500 hover:text-[#C9A84C] transition-colors">
               +41 79 566 74 10

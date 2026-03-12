@@ -195,7 +195,7 @@ export default function LenartKadriuPage() {
             Soutenez un talent prometteur du tennis suisse et bénéficiez d'une visibilité unique sur la scène européenne.
           </p>
           <p className="text-gray-600 text-sm mb-6">
-            Guillaume Haas · <a href="mailto:Ghaasmanagement@gmail.com" className="text-[#C9A84C] hover:text-[#E8C97A]">Ghaasmanagement@gmail.com</a> · <a href="tel:+41795667410" className="text-[#C9A84C] hover:text-[#E8C97A]">+41 79 566 74 10</a>
+            Guillaume Haas · <a href="mailto:ghaasmanagement@gmail.com" className="text-[#C9A84C] hover:text-[#E8C97A]">ghaasmanagement@gmail.com</a> · <a href="tel:+41795667410" className="text-[#C9A84C] hover:text-[#E8C97A]">+41 79 566 74 10</a>
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/contact" className="btn-gold inline-block">

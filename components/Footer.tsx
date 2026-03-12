@@ -42,7 +42,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Contact</h4>
             <div className="flex flex-col gap-2 text-sm text-gray-500">
-              <a href="mailto:contact.ghmanagement@gmail.com" className="hover:text-[#C9A84C] transition-colors">contact.ghmanagement@gmail.com</a>
+              <a href="mailto:ghaasmanagement@gmail.com" className="hover:text-[#C9A84C] transition-colors">ghaasmanagement@gmail.com</a>
               <a href="tel:+41795667410" className="hover:text-[#C9A84C] transition-colors">+41 79 566 74 10</a>
               <p className="text-gray-600 text-xs mt-1">Granges-Paccot, Suisse</p>
             </div>
