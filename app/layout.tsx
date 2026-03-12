@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "GHaas Management | Management Sportif & Sponsoring",
-  description: "GHaas Management est une agence suisse dédiée à la gestion de carrière d'athlètes talentueux et à l'organisation d'événements sportifs d'exception.",
-  keywords: "management sportif, sponsoring, athlètes suisses, tennis, golf, Suisse",
+  title: "GHaas Management | Management Sportif & Sponsoring en Suisse",
+  description: "GHaas Management est une agence suisse de management sportif et sponsoring basée à Granges-Paccot. Nous représentons des athlètes d'élite en golf et tennis et les mettons en relation avec des sponsors.",
+  keywords: "management sportif Suisse, sponsoring athlètes, golf professionnel Suisse, tennis professionnel, GHaas Management, Guillaume Haas",
 };
 
 export default function RootLayout({

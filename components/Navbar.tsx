@@ -29,8 +29,14 @@ export default function Navbar() {
           <Link href="/athletes" className="text-gray-400 hover:text-white text-sm font-medium transition-colors uppercase tracking-wider">
             Athlètes
           </Link>
+          <Link href="/sponsoring" className="text-gray-400 hover:text-white text-sm font-medium transition-colors uppercase tracking-wider">
+            Sponsoring
+          </Link>
           <Link href="/evenements" className="text-gray-400 hover:text-white text-sm font-medium transition-colors uppercase tracking-wider">
             Événements
+          </Link>
+          <Link href="/a-propos" className="text-gray-400 hover:text-white text-sm font-medium transition-colors uppercase tracking-wider">
+            À propos
           </Link>
           <Link href="/contact" className="btn-gold text-sm">
             Contact
@@ -57,7 +63,9 @@ export default function Navbar() {
         <div className="md:hidden bg-[#111111] border-t border-[#C9A84C]/20 px-6 py-4 flex flex-col gap-4">
           <Link href="/" onClick={() => setOpen(false)} className="text-gray-300 hover:text-white py-2 text-sm uppercase tracking-wider">Accueil</Link>
           <Link href="/athletes" onClick={() => setOpen(false)} className="text-gray-300 hover:text-white py-2 text-sm uppercase tracking-wider">Athlètes</Link>
+          <Link href="/sponsoring" onClick={() => setOpen(false)} className="text-gray-300 hover:text-white py-2 text-sm uppercase tracking-wider">Sponsoring</Link>
           <Link href="/evenements" onClick={() => setOpen(false)} className="text-gray-300 hover:text-white py-2 text-sm uppercase tracking-wider">Événements</Link>
+          <Link href="/a-propos" onClick={() => setOpen(false)} className="text-gray-300 hover:text-white py-2 text-sm uppercase tracking-wider">À propos</Link>
           <Link href="/contact" onClick={() => setOpen(false)} className="btn-gold text-center">Contact</Link>
         </div>
       )}

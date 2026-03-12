@@ -27,8 +27,8 @@ export default function Home() {
               <Link href="/athletes" className="btn-gold">
                 Nos Athlètes
               </Link>
-              <Link href="/contact" className="btn-outline">
-                Travailler ensemble
+              <Link href="/sponsoring" className="btn-outline">
+                Devenir sponsor
               </Link>
             </div>
           </div>
@@ -194,11 +194,16 @@ export default function Home() {
             <span className="gold-gradient">success story</span> ?
           </h2>
           <p className="text-gray-400 mb-10">
-            Vous êtes un athlète, une marque ou une organisation sportive ? Discutons de la façon dont GHaas Management peut vous accompagner.
+            Vous êtes une marque à la recherche de visibilité sportive ? Un athlète qui veut franchir un cap ? Une organisation cherchant un partenaire fiable ? GHaas Management construit des partenariats sur le long terme — avec des résultats concrets, en Suisse et à l&apos;international.
           </p>
-          <Link href="/contact" className="btn-gold inline-block text-base">
-            Prendre contact
-          </Link>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Link href="/sponsoring" className="btn-gold inline-block text-base">
+              Devenir sponsor
+            </Link>
+            <Link href="/contact" className="btn-outline inline-block text-base">
+              Nous contacter
+            </Link>
+          </div>
         </div>
       </section>
     </div>
