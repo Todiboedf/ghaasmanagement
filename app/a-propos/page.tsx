@@ -19,7 +19,7 @@ export default function AProposPage() {
             Notre <span className="gold-gradient">Histoire</span>
           </h1>
           <p className="text-gray-500 max-w-xl">
-            GHaas Management est née d&apos;une conviction simple : les athlètes suisses méritent un accompagnement à la hauteur de leur talent.
+            GHaas Management est née d'une conviction simple : les athlètes suisses méritent un accompagnement à la hauteur de leur talent.
           </p>
         </div>
 
@@ -32,10 +32,10 @@ export default function AProposPage() {
                 GHaas Management est une agence suisse de management sportif et sponsoring fondée par <span className="text-white font-medium">Guillaume Haas</span>, basée à Granges-Paccot, dans le canton de Fribourg.
               </p>
               <p>
-                Née d&apos;une passion profonde pour le sport et d&apos;une volonté de donner aux athlètes suisses les moyens de leurs ambitions, l&apos;agence s&apos;est construite autour d&apos;une idée fondatrice : <span className="text-[#C9A84C]">le talent ne suffit pas — il faut aussi le bon soutien, au bon moment.</span>
+                Née d'une passion profonde pour le sport et d'une volonté de donner aux athlètes suisses les moyens de leurs ambitions, l'agence s'est construite autour d'une idée fondatrice : <span className="text-[#C9A84C]">le talent ne suffit pas ; il faut aussi le bon soutien, au bon moment.</span>
               </p>
               <p>
-                GHaas Management ne gère pas des dossiers. Elle accompagne des individus. Chaque athlète est unique, chaque projet l&apos;est aussi. C&apos;est pourquoi l&apos;agence adopte une approche personnalisée, terrain, engagée — loin des grandes structures où les athlètes se perdent dans la masse.
+                GHaas Management ne gère pas des dossiers. Elle accompagne des individus. Chaque athlète est unique, chaque projet l'est aussi. C'est pourquoi l'agence adopte une approche personnalisée, terrain, engagée. Loin des grandes structures où les athlètes se perdent dans la masse.
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function AProposPage() {
             {[
               {
                 value: "Intégrité",
-                desc: "Transparence totale envers les athlètes comme envers les sponsors. Pas de promesses en l'air — seulement des engagements tenus.",
+                desc: "Transparence totale envers les athlètes comme envers les sponsors. Pas de promesses en l'air ; seulement des engagements tenus.",
               },
               {
                 value: "Passion",
@@ -112,46 +112,77 @@ export default function AProposPage() {
           <div className="gold-line" />
           <h2 className="text-2xl font-bold text-white mb-10">Notre parcours</h2>
           <div className="space-y-4">
-            {[
-              {
-                year: "2022",
-                title: "Lancement de GHaas Management",
-                desc: "Création de l'agence en Suisse avec l'objectif de représenter les talents sportifs suisses méritant un meilleur accès aux sponsors et aux circuits internationaux.",
-              },
-              {
-                year: "2022",
-                title: "Premier athlète : David Morand",
-                desc: "Signature avec David Morand, golfeur professionnel de Sion. Qualification à la Q-School Alps Tour en statut professionnel. Début du suivi de carrière.",
-              },
-              {
-                year: "2023",
-                title: "Expansion tennis : Lenart Kadriu",
-                desc: "Intégration de Lenart Kadriu, espoir Swiss Tennis de Vevey. L'agence étend son expertise au tennis et renforce son portefeuille d'athlètes.",
-              },
-              {
-                year: "2024",
-                title: "Alps Tour en Égypte",
-                desc: "Guillaume accompagne David Morand en Égypte pour ses tournois Alps Tour en tant que caddy — un engagement terrain rare et symbolique de notre philosophie.",
-              },
-              {
-                year: "2024",
-                title: "Easy Master Cup",
-                desc: "Organisation de l'Easy Master Cup en partenariat avec Easy Gérance SA — premier événement golf caritatif de GHaas Management.",
-              },
-              {
-                year: "2025+",
-                title: "Croissance & nouveaux partenariats",
-                desc: "Développement du portefeuille d'athlètes, renforcement des partenariats sponsors, et poursuite de l'engagement avec la Fondation Avenir Plus.",
-              },
-            ].map((item) => (
-              <div key={`${item.year}-${item.title}`} className="card-dark rounded-sm p-5 flex items-start gap-6">
-                <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12 pt-0.5">{item.year}</div>
-                <div>
-                  <h3 className="text-white font-semibold mb-1">{item.title}</h3>
-                  <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
+            {/* 2022 */}
+            <div className="card-dark rounded-sm p-5 flex items-start gap-6">
+              <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12 pt-0.5">2022</div>
+              <div>
+                <h3 className="text-white font-semibold mb-1">Lancement de GHaas Management</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">Création de l'agence en Suisse avec l'objectif de représenter les talents sportifs suisses méritant un meilleur accès aux sponsors et aux circuits internationaux.</p>
+              </div>
+            </div>
+
+            {/* 2022 - David */}
+            <div className="card-dark rounded-sm p-5 flex items-start gap-6">
+              <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12 pt-0.5">2022</div>
+              <div>
+                <h3 className="text-white font-semibold mb-1">Premier athlète : David Morand</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">Signature avec David Morand, golfeur professionnel de Sion. Qualification à la Q-School Alps Tour en statut professionnel. Début du suivi de carrière.</p>
+              </div>
+            </div>
+
+            {/* 2023 */}
+            <div className="card-dark rounded-sm p-5 flex items-start gap-6">
+              <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12 pt-0.5">2023</div>
+              <div>
+                <h3 className="text-white font-semibold mb-1">Expansion tennis : Lenart Kadriu</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">Intégration de Lenart Kadriu, espoir Swiss Tennis de Vevey. L'agence étend son expertise au tennis et renforce son portefeuille d'athlètes.</p>
+              </div>
+            </div>
+
+            {/* 2024 - Alps Tour */}
+            <div className="card-dark rounded-sm p-5 flex items-start gap-6">
+              <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12 pt-0.5">2024</div>
+              <div>
+                <h3 className="text-white font-semibold mb-1">Alps Tour en Égypte</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">Guillaume accompagne David Morand en Égypte pour ses tournois Alps Tour en tant que caddy. Un engagement terrain rare et symbolique de notre philosophie.</p>
+              </div>
+            </div>
+
+            {/* 2024 - Easy Master Cup */}
+            <div className="card-dark rounded-sm overflow-hidden border border-[#C9A84C]/15">
+              <div className="bg-gradient-to-r from-[#1A1408] to-[#111111] p-5 flex items-start gap-6">
+                <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12 pt-0.5">2024</div>
+                <div className="flex-1">
+                  <h3 className="text-white font-semibold mb-1">Easy Master Cup 2024</h3>
+                  <p className="text-gray-500 text-sm leading-relaxed">Organisation de l'Easy Master Cup en partenariat avec Easy Gérance SA, premier événement golf caritatif de GHaas Management.</p>
                 </div>
               </div>
-            ))}
+              {/* Photo placeholder Easy Master Cup */}
+              <div className="h-32 bg-gradient-to-br from-[#1A1A1A] to-[#0A0A0A] flex items-center justify-center border-t border-[#C9A84C]/10">
+                <div className="text-center">
+                  <div className="text-4xl mb-1">🏆</div>
+                  <span className="text-[#C9A84C]/50 text-xs uppercase tracking-widest">Easy Master Cup</span>
+                </div>
+              </div>
+            </div>
+
+            {/* 2025 */}
+            <div className="card-dark rounded-sm p-5 flex items-start gap-6">
+              <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12 pt-0.5">2025</div>
+              <div>
+                <h3 className="text-white font-semibold mb-1">Easy Master Cup 2025 & Expansion</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">Deuxième édition de l'Easy Master Cup. Nouveaux partenariats et développement du portefeuille d'athlètes.</p>
+              </div>
+            </div>
+
+            {/* 2026+ */}
+            <div className="card-dark rounded-sm p-5 flex items-start gap-6 border-l-2 border-[#C9A84C]/40">
+              <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12 pt-0.5">2026+</div>
+              <div>
+                <h3 className="text-white font-semibold mb-1">Digitalisation & Expansion Réseaux Sociaux</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">Lancement de la stratégie digitale, croissance sur les réseaux sociaux et ouverture à de nouveaux marchés.</p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -162,10 +193,10 @@ export default function AProposPage() {
             <div>
               <h3 className="text-white text-xl font-bold mb-3">Fondation Avenir Plus</h3>
               <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                GHaas Management s&apos;engage au-delà du terrain sportif. Une partie des revenus générés par nos activités est reversée à la <span className="text-[#C9A84C]">Fondation Avenir Plus</span>, une fondation suisse dédiée à soutenir des projets sociaux et éducatifs.
+                GHaas Management s'engage au-delà du terrain sportif. Une partie des revenus générés par nos activités est reversée à la <span className="text-[#C9A84C]">Fondation Avenir Plus</span>, une fondation suisse dédiée à soutenir des projets sociaux et éducatifs.
               </p>
               <p className="text-gray-500 text-sm">
-                Sponsoriser un athlète GHaas Management, c&apos;est aussi contribuer, indirectement, à un impact social positif.
+                Sponsoriser un athlète GHaas Management, c'est aussi contribuer, indirectement, à un impact social positif.
               </p>
             </div>
           </div>
@@ -175,7 +206,7 @@ export default function AProposPage() {
         <div className="bg-[#111111] border border-[#C9A84C]/20 rounded-sm p-8 text-center">
           <h3 className="text-white text-xl font-bold mb-3">Travaillons ensemble</h3>
           <p className="text-gray-500 mb-6 text-sm max-w-md mx-auto">
-            Vous êtes une marque, une entreprise ou un organisateur d&apos;événements sportifs ? Discutons de la façon dont GHaas Management peut vous accompagner.
+            Vous êtes une marque, une entreprise ou un organisateur d'événements sportifs ? Discutons de la façon dont GHaas Management peut vous accompagner.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/contact" className="btn-gold inline-block">Nous contacter</Link>

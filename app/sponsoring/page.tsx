@@ -19,7 +19,7 @@ export default function SponsoringPage() {
             Devenir <span className="gold-gradient">Sponsor</span>
           </h1>
           <p className="text-gray-500 max-w-xl">
-            Associez votre marque à l&apos;excellence sportive suisse. Investissez dans des athlètes à fort potentiel et bénéficiez d&apos;une visibilité unique sur les circuits nationaux et internationaux.
+            Associez votre marque à l'excellence sportive suisse. Investissez dans des athlètes à fort potentiel et bénéficiez d'une visibilité unique sur les circuits nationaux et internationaux.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export default function SponsoringPage() {
               {
                 icon: "🇨🇭",
                 title: "Ancrage suisse",
-                desc: "Soutenir des athlètes suisses, c'est valoriser un imaginaire d'excellence, de rigueur et de précision — des valeurs fortes pour votre marque.",
+                desc: "Soutenir des athlètes suisses, c'est valoriser un imaginaire d'excellence, de rigueur et de précision ; des valeurs fortes pour votre marque.",
               },
             ].map((item) => (
               <div key={item.title} className="card-dark rounded-sm p-6">
@@ -78,7 +78,7 @@ export default function SponsoringPage() {
             Nos <span className="gold-gradient">packages</span>
           </h2>
           <p className="text-gray-500 mb-10 text-sm">
-            Trois niveaux de partenariat pour s&apos;adapter à vos objectifs et votre budget.
+            Trois niveaux de partenariat pour s'adapter à vos objectifs et votre budget.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -184,7 +184,7 @@ export default function SponsoringPage() {
             <div>
               <h3 className="text-white text-xl font-bold mb-3">Un sponsoring à impact positif</h3>
               <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                GHaas Management reverse une partie de ses revenus à la <span className="text-[#C9A84C] font-medium">Fondation Avenir Plus</span>. En devenant sponsor, votre entreprise contribue non seulement à la carrière d&apos;un athlète de haut niveau, mais aussi, indirectement, à un projet social et solidaire en Suisse.
+                GHaas Management reverse une partie de ses revenus à la <span className="text-[#C9A84C] font-medium">Fondation Avenir Plus</span>. En devenant sponsor, votre entreprise contribue non seulement à la carrière d'un athlète de haut niveau, mais aussi, indirectement, à un projet social et solidaire en Suisse.
               </p>
               <p className="text-gray-500 text-sm italic">
                 Deux impacts pour un seul investissement.
@@ -224,7 +224,7 @@ export default function SponsoringPage() {
         <div className="bg-[#111111] border border-[#C9A84C]/20 rounded-sm p-8 text-center">
           <h3 className="text-white text-xl font-bold mb-3">Une question ? Un projet ?</h3>
           <p className="text-gray-500 mb-6 text-sm max-w-md mx-auto">
-            Contactez-nous directement — Guillaume vous répondra personnellement pour discuter de vos objectifs.
+            Contactez-nous directement ; Guillaume vous répondra personnellement pour discuter de vos objectifs.
           </p>
           <div className="flex flex-wrap gap-4 justify-center mb-4">
             <Link href="/contact" className="btn-gold inline-block">Nous contacter</Link>

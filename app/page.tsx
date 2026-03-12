@@ -18,10 +18,10 @@ export default function Home() {
             </p>
             <h1 className="text-5xl md:text-7xl font-black text-white leading-[1.05] mb-6">
               Investissez dans{" "}
-              <span className="gold-gradient">l&apos;excellence</span>
+              <span className="gold-gradient">l'excellence</span>
             </h1>
             <p className="text-gray-400 text-xl leading-relaxed mb-10 max-w-xl">
-              GHaas Management propulse des athlètes suisses d&apos;exception vers de nouveaux sommets. Nous sommes les architectes de carrières, les facilitateurs de rêves.
+              GHaas Management propulse des athlètes suisses d'exception vers de nouveaux sommets. Nous sommes les architectes de carrières, les facilitateurs de rêves.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/athletes" className="btn-gold">
@@ -68,10 +68,10 @@ export default function Home() {
               Notre <span className="gold-gradient">Mission</span>
             </h2>
             <p className="text-gray-400 leading-relaxed mb-6">
-              GHaas Management n&apos;est pas simplement une agence — c&apos;est une communauté où les rêves des athlètes prennent vie, où le talent rencontre l&apos;opportunité, et où chaque victoire devient une célébration collective.
+              GHaas Management n'est pas simplement une agence : c'est une communauté où les rêves des athlètes prennent vie, où le talent rencontre l'opportunité, et où chaque victoire devient une célébration collective.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8">
-              Nous comprenons que la réussite d&apos;un athlète ne se mesure pas seulement sur le terrain. C&apos;est pourquoi nous créons des partenariats solides avec des sponsors qui partagent notre vision d&apos;intégrité et de dépassement de soi.
+              Nous comprenons que la réussite d'un athlète ne se mesure pas seulement sur le terrain. C'est pourquoi nous créons des partenariats solides avec des sponsors qui partagent notre vision d'intégrité et de dépassement de soi.
             </p>
             <Link href="/contact" className="btn-outline inline-block">
               En savoir plus
@@ -106,7 +106,7 @@ export default function Home() {
               Nos <span className="gold-gradient">Athlètes</span>
             </h2>
             <p className="text-gray-500 max-w-lg mx-auto">
-              Des talents suisses d&apos;exception que nous accompagnons vers les plus hauts niveaux internationaux.
+              Des talents suisses d'exception que nous accompagnons vers les plus hauts niveaux internationaux.
             </p>
           </div>
 
@@ -125,7 +125,7 @@ export default function Home() {
                   <span className="text-[#C9A84C] text-xs uppercase tracking-wider border border-[#C9A84C]/30 px-2 py-1">Tennis</span>
                 </div>
                 <p className="text-gray-400 text-sm mb-1">🇨🇭 Vevey, Suisse · Né le 16.01.2012</p>
-                <p className="text-gray-500 text-sm mb-4">Espoir Swiss Tennis — Team Vaud — Cadre suprarégional</p>
+                <p className="text-gray-500 text-sm mb-4">Espoir Swiss Tennis, Team Vaud, Cadre suprarégional</p>
                 <Link href="/athletes/lenart-kadriu" className="text-[#C9A84C] text-sm font-medium hover:text-[#E8C97A] transition-colors">
                   Voir le profil →
                 </Link>
@@ -146,7 +146,7 @@ export default function Home() {
                   <span className="text-[#C9A84C] text-xs uppercase tracking-wider border border-[#C9A84C]/30 px-2 py-1">Golf</span>
                 </div>
                 <p className="text-gray-400 text-sm mb-1">🇨🇭 Sion, Valais · Professionnel</p>
-                <p className="text-gray-500 text-sm mb-4">Alps Tour 2024 — Porte-drapeau du Valais et de la Suisse</p>
+                <p className="text-gray-500 text-sm mb-4">Alps Tour 2024. Porte-drapeau du Valais et de la Suisse</p>
                 <Link href="/athletes/david-morand" className="text-[#C9A84C] text-sm font-medium hover:text-[#E8C97A] transition-colors">
                   Voir le profil →
                 </Link>
@@ -171,10 +171,10 @@ export default function Home() {
               Easy <span className="gold-gradient">Master Cup</span>
             </h2>
             <p className="text-gray-400 leading-relaxed mb-6">
-              L&apos;événement golf signature de GHaas Management, organisé en partenariat avec Easy Gérance SA. Une compétition caritative alliant sport d&apos;excellence et engagement social.
+              L'événement golf signature de GHaas Management, organisé en partenariat avec Easy Gérance SA. Une compétition caritative alliant sport d'excellence et engagement social.
             </p>
             <Link href="/evenements" className="btn-gold inline-block">
-              Découvrir l&apos;événement
+              Découvrir l'événement
             </Link>
           </div>
           <div className="card-dark rounded-sm p-10 text-center">
@@ -194,7 +194,7 @@ export default function Home() {
             <span className="gold-gradient">success story</span> ?
           </h2>
           <p className="text-gray-400 mb-10">
-            Vous êtes une marque à la recherche de visibilité sportive ? Un athlète qui veut franchir un cap ? Une organisation cherchant un partenaire fiable ? GHaas Management construit des partenariats sur le long terme — avec des résultats concrets, en Suisse et à l&apos;international.
+            Vous êtes une marque à la recherche de visibilité sportive ? Un athlète qui veut franchir un cap ? Une organisation cherchant un partenaire fiable ? GHaas Management construit des partenariats sur le long terme, avec des résultats concrets, en Suisse et à l'international.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/sponsoring" className="btn-gold inline-block text-base">

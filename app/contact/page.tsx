@@ -38,7 +38,7 @@ export default function ContactPage() {
                 <select className="w-full bg-[#1A1A1A] border border-[#C9A84C]/20 rounded-sm px-4 py-3 text-white text-sm focus:outline-none focus:border-[#C9A84C] transition-colors">
                   <option value="">Sélectionner...</option>
                   <option value="sponsoring">Proposition de sponsoring</option>
-                  <option value="athlete">Représentation d&apos;athlète</option>
+                  <option value="athlete">Représentation d'athlète</option>
                   <option value="evenement">Easy Master Cup</option>
                   <option value="partenariat">Partenariat</option>
                   <option value="autre">Autre</option>
@@ -113,7 +113,7 @@ export default function ContactPage() {
                     <span className="w-1.5 h-1.5 rounded-full bg-[#C9A84C] flex-shrink-0" />
                     <div>
                       <span className="text-white text-sm font-medium">{item.type}</span>
-                      <span className="text-gray-600 text-sm"> — {item.desc}</span>
+                      <span className="text-gray-600 text-sm"> : {item.desc}</span>
                     </div>
                   </div>
                 ))}

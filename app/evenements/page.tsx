@@ -11,7 +11,7 @@ export default function EvenementsPage() {
             Nos <span className="gold-gradient">Événements</span>
           </h1>
           <p className="text-gray-500 max-w-lg">
-            GHaas Management organise des événements sportifs d&apos;exception, alliant compétition de haut niveau et engagement social.
+            GHaas Management organise des événements sportifs d'exception, alliant compétition de haut niveau et engagement social.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function EvenementsPage() {
               <div>
                 <p className="text-gray-500 text-xs uppercase tracking-wider mb-2">À propos</p>
                 <p className="text-gray-400 leading-relaxed">
-                  L&apos;Easy Master Cup est l&apos;événement golf signature de GHaas Management, organisé en partenariat avec Easy Gérance SA. Une compétition caritative qui réunit des passionnés de golf pour une journée alliant sport d&apos;excellence et engagement solidaire.
+                  L'Easy Master Cup est l'événement golf signature de GHaas Management, organisé en partenariat avec Easy Gérance SA. Une compétition caritative qui réunit des passionnés de golf pour une journée alliant sport d'excellence et engagement solidaire.
                 </p>
               </div>
               <div className="space-y-3">
@@ -60,7 +60,7 @@ export default function EvenementsPage() {
               {[
                 { icon: "⛳", title: "Compétition", desc: "Format stroke play sur parcours de championnat" },
                 { icon: "🤝", title: "Partenariat", desc: "En collaboration avec Easy Gérance SA" },
-                { icon: "❤️", title: "Engagement", desc: "Dimension caritative au cœur de l&apos;événement" },
+                { icon: "❤️", title: "Engagement", desc: "Dimension caritative au cœur de l'événement" },
               ].map((item) => (
                 <div key={item.title} className="bg-[#1A1A1A] rounded-sm p-4 text-center">
                   <div className="text-2xl mb-2">{item.icon}</div>
@@ -86,7 +86,7 @@ export default function EvenementsPage() {
           <p className="text-gray-600 text-sm uppercase tracking-wider mb-2">Prochainement</p>
           <h3 className="text-white text-xl font-bold mb-2">Nouveaux événements en préparation</h3>
           <p className="text-gray-500 text-sm">
-            GHaas Management développe de nouveaux formats d&apos;événements sportifs. Restez connectés.
+            GHaas Management développe de nouveaux formats d'événements sportifs. Restez connectés.
           </p>
         </div>
       </div>

@@ -33,8 +33,8 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Nos Athlètes</h4>
             <div className="flex flex-col gap-2">
-              <Link href="/athletes/david-morand" className="text-gray-500 hover:text-[#C9A84C] text-sm transition-colors">David Morand — Golf</Link>
-              <Link href="/athletes/lenart-kadriu" className="text-gray-500 hover:text-[#C9A84C] text-sm transition-colors">Lenart Kadriu — Tennis</Link>
+              <Link href="/athletes/david-morand" className="text-gray-500 hover:text-[#C9A84C] text-sm transition-colors">David Morand, Golf</Link>
+              <Link href="/athletes/lenart-kadriu" className="text-gray-500 hover:text-[#C9A84C] text-sm transition-colors">Lenart Kadriu, Tennis</Link>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 border-t border-[#C9A84C]/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-600 text-xs">© 2026 GHaas Management. Tous droits réservés.</p>
-          <p className="text-gray-700 text-xs">Management Sportif & Sponsoring — Suisse</p>
+          <p className="text-gray-700 text-xs">Management Sportif & Sponsoring, Suisse</p>
         </div>
       </div>
     </footer>

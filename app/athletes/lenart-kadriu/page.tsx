@@ -66,7 +66,7 @@ export default function LenartKadriuPage() {
             </div>
 
             <p className="text-gray-400 leading-relaxed">
-              Lenart Kadriu est un jeune talent suisse, reconnu comme l&apos;un des meilleurs joueurs nationaux de sa catégorie d&apos;âge. Identifié comme espoir par Swiss Tennis, il fait partie du cadre suprarégional. Son style de jeu résolument offensif, centré sur l&apos;attaque et l&apos;initiative, lui permet de s&apos;imposer face aux meilleurs jeunes joueurs européens.
+              Lenart Kadriu est un jeune talent suisse, reconnu comme l'un des meilleurs joueurs nationaux de sa catégorie d'âge. Identifié comme espoir par Swiss Tennis, il fait partie du cadre suprarégional. Son style de jeu résolument offensif, centré sur l'attaque et l'initiative, lui permet de s'imposer face aux meilleurs jeunes joueurs européens.
             </p>
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function LenartKadriuPage() {
         <div className="mb-16">
           <div className="gold-line" />
           <h2 className="text-2xl font-bold text-white mb-3">Offres de Partenariat</h2>
-          <p className="text-gray-500 mb-8 text-sm">Soutenir Lenart, c&apos;est associer votre entreprise à un jeune athlète d&apos;élite à fort potentiel, visible sur les circuits suisses et européens.</p>
+          <p className="text-gray-500 mb-8 text-sm">Soutenir Lenart, c'est associer votre entreprise à un jeune athlète d'élite à fort potentiel, visible sur les circuits suisses et européens.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {[
               {
@@ -192,7 +192,7 @@ export default function LenartKadriuPage() {
         <div className="bg-[#111111] border border-[#C9A84C]/20 rounded-sm p-8 text-center">
           <h3 className="text-white text-xl font-bold mb-3">Devenir partenaire de Lenart</h3>
           <p className="text-gray-500 mb-2 text-sm max-w-md mx-auto">
-            Soutenez un talent prometteur du tennis suisse et bénéficiez d&apos;une visibilité unique sur la scène européenne.
+            Soutenez un talent prometteur du tennis suisse et bénéficiez d'une visibilité unique sur la scène européenne.
           </p>
           <p className="text-gray-600 text-sm mb-6">
             Guillaume Haas · <a href="mailto:Ghaasmanagement@gmail.com" className="text-[#C9A84C] hover:text-[#E8C97A]">Ghaasmanagement@gmail.com</a> · <a href="tel:+41795667410" className="text-[#C9A84C] hover:text-[#E8C97A]">+41 79 566 74 10</a>

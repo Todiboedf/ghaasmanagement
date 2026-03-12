@@ -51,7 +51,7 @@ export default function DavidMorandPage() {
             </div>
 
             <p className="text-gray-400 leading-relaxed">
-              David Morand est un golfeur professionnel suisse basé à Sion, porte-drapeau du Valais et de la Suisse sur la scène internationale. Passionné de golf depuis l&apos;enfance dans sa région valaisanne, il s&apos;est forgé un palmarès solide avant de franchir le cap professionnel en 2022. GHaas Management l&apos;accompagne depuis lors dans son développement de carrière, avec un objectif : lui donner les moyens de ses ambitions sur les circuits européens.
+              David Morand est un golfeur professionnel suisse basé à Sion, porte-drapeau du Valais et de la Suisse sur la scène internationale. Passionné de golf depuis l'enfance dans sa région valaisanne, il s'est forgé un palmarès solide avant de franchir le cap professionnel en 2022. GHaas Management l'accompagne depuis lors dans son développement de carrière, avec un objectif : lui donner les moyens de ses ambitions sur les circuits européens.
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function DavidMorandPage() {
               <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12">2024</div>
               <div>
                 <h3 className="text-white font-semibold mb-1">Alps Tour 2024 — Égypte</h3>
-                <p className="text-gray-500 text-sm">Qualification et participation au circuit européen Alps Tour. GHaas Management présent sur place en Égypte, Guillaume Haas accompagnant David en tant que caddy — un soutien terrain unique.</p>
+                <p className="text-gray-500 text-sm">Qualification et participation au circuit européen Alps Tour. GHaas Management présent sur place en Égypte, Guillaume Haas accompagnant David en tant que caddy. Un soutien terrain unique.</p>
               </div>
             </div>
 
@@ -82,7 +82,7 @@ export default function DavidMorandPage() {
             <div className="card-dark rounded-sm p-5 flex items-start gap-4">
               <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12">2022</div>
               <div>
-                <h3 className="text-white font-semibold mb-1">5ème — Stella Pro Série, Golf de Lausanne</h3>
+                <h3 className="text-white font-semibold mb-1">5ème, Stella Pro Série, Golf de Lausanne</h3>
                 <p className="text-gray-500 text-sm">5ème place au tournoi Stella Pro Série sur le parcours de Lausanne.</p>
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function DavidMorandPage() {
             <div className="card-dark rounded-sm p-5 flex items-start gap-4">
               <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12">2021</div>
               <div>
-                <h3 className="text-white font-semibold mb-1">Champion du club — Crans sur Sierre</h3>
+                <h3 className="text-white font-semibold mb-1">Champion du club, Crans sur Sierre</h3>
                 <p className="text-gray-500 text-sm">2ème titre de champion du club consécutif au Golf de Crans sur Sierre.</p>
               </div>
             </div>
@@ -107,7 +107,7 @@ export default function DavidMorandPage() {
             <div className="card-dark rounded-sm p-5 flex items-start gap-4">
               <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12">2020</div>
               <div>
-                <h3 className="text-white font-semibold mb-1">Champion du club — Crans sur Sierre</h3>
+                <h3 className="text-white font-semibold mb-1">Champion du club, Crans sur Sierre</h3>
                 <p className="text-gray-500 text-sm">Champion du club au Golf de Crans sur Sierre.</p>
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function DavidMorandPage() {
             <div className="card-dark rounded-sm p-5 flex items-start gap-4">
               <div className="flex-shrink-0 text-[#C9A84C] font-black text-sm w-12">2013</div>
               <div>
-                <h3 className="text-white font-semibold mb-1">Vice-champion Valaisan — Golf de Sierre</h3>
+                <h3 className="text-white font-semibold mb-1">Vice-champion Valaisan, Golf de Sierre</h3>
                 <p className="text-gray-500 text-sm">2ème place au Championnat Valaisan, Golf de Sierre.</p>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function DavidMorandPage() {
             {[
               {
                 icon: "❄️",
-                title: "S&apos;entraîner en hiver",
+                title: "S'entraîner en hiver",
                 desc: "Les hivers valaisans limitent l'accès aux parcours. Un sponsor permet à David de partir s'entraîner dans des conditions optimales hors saison.",
               },
               {
@@ -180,7 +180,7 @@ export default function DavidMorandPage() {
         <div className="bg-[#111111] border border-[#C9A84C]/20 rounded-sm p-8 text-center">
           <h3 className="text-white text-xl font-bold mb-3">Soutenir David Morand</h3>
           <p className="text-gray-500 mb-6 text-sm max-w-md mx-auto">
-            Devenez partenaire d&apos;un ambassadeur du golf suisse sur la scène internationale.
+            Devenez partenaire d'un ambassadeur du golf suisse sur la scène internationale.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/sponsoring" className="btn-gold inline-block">Voir les offres de sponsoring</Link>
